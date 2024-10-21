@@ -1,0 +1,2 @@
+# Prompt creado con chatgpt
+de este proyecto en Django (https://github.com/profermarquez/login-django) como le agrego un CRUD de ventas con los siguientes campos: PAÍS,FORMA DE VENTA,FORMA DE PAGO, PRODUCTO ,VENDEDOR,FECHA,  VENTAS, CANTIDAD,COMISION , tiene que estar todos los pasos para agregar la app de django

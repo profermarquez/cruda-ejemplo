@@ -1,0 +1,9 @@
+<h2>Lista de Ventas</h2>
+<a href="{% url 'venta_create' %}">Agregar Nueva Venta</a>
+<ul>
+    {% for venta in ventas %}
+        <li>{{ venta.producto }} - {{ venta.vendedor }} - {{ venta.ventas }} 
+        <a href="{% url 'venta_update' venta.id %}">Editar</a> 
+        <a href="{% url 'venta_delete' venta.id %}">Eliminar</a></li>
+    {% endfor %}
+</ul>
